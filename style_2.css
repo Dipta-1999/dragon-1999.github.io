@@ -1,0 +1,141 @@
+@import 'utility.css';
+
+:root
+{
+    --re: red;
+    --bl: blue;
+    --gr: green;
+    --br: gray;
+    --ye: yellow;
+    --lg: lightgreen;
+    --lb: lightblue;
+    --yg: rgb(109, 109, 69);
+    --im: url('C:\Users\DIPTARANJAN\OneDrive\Desktop\My Portfolio\img.jpg')
+}
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+html body{
+    background-color: bisque;
+}
+header
+{
+    background: var(--br);
+    height: auto;
+    width:auto;
+    padding: auto;
+}
+
+.container 
+{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+body header .container {
+    color: var(--ye);
+    text-transform: uppercase;
+}
+body header .container a{
+    color: var(--lg);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition:all 3s ease;
+}
+body header .container a:hover{
+    color:deepskyblue;
+}
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+body header nav 
+{
+    padding: 2rem 0;
+}
+body header nav .brand
+{
+    margin-right: 3rem;
+}
+body h1 {    
+    color:darkgrey;
+    
+    overflow: hidden;
+    white-space:nowrap;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    text-transform: uppercase;
+    width:auto;
+    padding: auto;
+    
+    margin-top: 10%;
+    margin-left: 20%;
+}
+body .hero .left{
+    padding: 2rem;
+    padding-top: 6rem;
+    padding-bottom: 2rem;
+    padding-right: 1rem;
+    margin-left: 10%;
+}
+body h3 {    
+    color: blueviolet;
+    
+    overflow: hidden;
+    white-space:nowrap;
+    font-family: 'Courier New', Courier, monospace;    
+    text-transform: uppercase;
+    width:auto;
+    padding: auto;    
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 7%;
+    
+    padding-right: 6rem;
+}
+.names
+{
+    margin-top: 2%;
+    margin-left: 20% ;
+}
+body h2 {    
+    color: blueviolet;
+    
+    overflow: hidden;
+    white-space:nowrap;
+    font-family: 'Courier New', Courier, monospace;    
+    text-transform: uppercase;
+    width:auto;
+    padding: auto;    
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 0%;    
+    padding-right: 10rem;    
+
+}
+.btn2
+{
+    padding: 0.8rem 3rem;
+    font-size: 1rem;
+    font-weight:600;
+    border: 2px solid transparent;
+    background: var(--ye);
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.btnprimary2:hover
+{
+    background: var(--lb);
+    color: green;
+    transition:all .9s ease;
+}
+h3{
+    font-style: oblique;
+}
+ 
+
